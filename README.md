@@ -9,3 +9,12 @@ Used in the blog article [Set up a Kafka cluster on Amazon EC2](https://normanli
 `source cease_logs.sh`
 ### Reset the log file
 `source replace_logs.sh`
+
+## Docker
+Try running the container
+```bash
+docker run -it docker.io/frenoid/log_generator:v1.0.0
+```
+
+Find the latest images at on [Docker.io](https://hub.docker.com/r/frenoid/log_generator)
+
